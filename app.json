@@ -1,0 +1,12 @@
+{
+  "name": "Sample Heroku Deploy NodeJS",
+  "repository": "https://github.com/coding-blocks-archives/SampleDeployNodeJSHeroku",
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
